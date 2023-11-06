@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.image-section {
+  background-image: url("./graphics/background.jpg");
+  width: 33vw;
+  height: 100vh;
+  position: relative;
+}
+
+.logo-area {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  height: 100px;
+}
+
+@font-face {
+  font-family: norse-bold;
+  src: url("./graphics/Norse-Bold.otf");
+}
+
+.logo-text {
+  font-family: norse-bold;
+  color: white;
+  font-size: 75px;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.form-section {
+  width: 67vw;
+}
