@@ -5,10 +5,12 @@
 
 .container {
   display: flex;
+  font-family: sans-serif;
 }
 
 .image-section {
   background-image: url("./graphics/background.jpg");
+  background-position: center;
   width: 33vw;
   height: 100vh;
   position: relative;
@@ -44,4 +46,18 @@
 
 .form-section {
   width: 67vw;
+  background-color: #F9FAFB;
+}
+
+.form-container {
+  padding: 150px 50px;
+}
+
+.above-form-section {
+  padding-right: 100px;
+}
+
+.above-form-section p {
+  font-size: 18px;
+  line-height: 1.4rem;
 }
